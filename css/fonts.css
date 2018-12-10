@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'GothaProReg';
+  src: url("../fonts/GothaProReg.eot");
+  src: url("../fonts/GothaProReg.eot") format("embedded-opentype");
+  src: url("../fonts/GothaProReg.woff2") format("woff2");
+  src: url("../fonts/GothaProReg.woff") format("woff");
+  src: url("../fonts/GothaProReg.ttf") format("truetype");
+  src: url("../fonts/GothaProReg.svg#GothaProReg") format("svg");
+  font-family: 'GothaProLig';
+  src: url("../fonts/GothaProLig.eot");
+  src: url("../fonts/GothaProLig.eot") format("embedded-opentype");
+  src: url("../fonts/GothaProLig.woff2") format("woff2");
+  src: url("../fonts/GothaProLig.woff") format("woff");
+  src: url("../fonts/GothaProLig.ttf") format("truetype");
+  src: url("../fonts/GothaProLig.svg#GothaProLig") format("svg");
+  font-family: 'latobold';
+  src: url("../fonts/lato-bold-webfont.eot");
+  src: url("../fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/lato-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/lato-bold-webfont.woff") format("woff");
+  src: url("../fonts/lato-bold-webfont.svg#latobold") format("svg");
+  font-family: 'latomedium';
+  src: url("../fonts/lato-medium-webfont.eot");
+  src: url("../fonts/lato-medium-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/lato-medium-webfont.woff2") format("woff2");
+  src: url("../fonts/lato-medium-webfont.woff") format("woff");
+  src: url("../fonts/lato-medium-webfont.svg#latomedium") format("svg");
+  font-family: 'latoregular';
+  src: url("../fonts/lato-regular-webfont.eot");
+  src: url("../fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/lato-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/lato-regular-webfont.woff") format("woff");
+  src: url("../fonts/lato-regular-webfont.svg#latoregular") format("svg"); }

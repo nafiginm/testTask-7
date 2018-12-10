@@ -1,0 +1,758 @@
+.slider-container {
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  overflow: hidden;
+  color: #0D319C;
+  position: relative; }
+
+.slide {
+  width: 1024px;
+  height: 768px; }
+
+.slide-1 {
+  background: url("../img/bg-slide1.png") center center no-repeat; }
+
+.slide-1-h2 {
+  font-size: 50px;
+  padding: 145px 334px 0 75px;
+  font-family: 'GothaProReg'; }
+
+.target-h6 {
+  font-size: 20px;
+  position: absolute;
+  font-family: 'GothaProLig'; }
+
+.target1-h6 {
+  top: 35.5%;
+  right: 27.5%; }
+
+.target2-h6 {
+  bottom: 44.5%;
+  left: 22%; }
+
+.target3-h6 {
+  bottom: 31%;
+  left: 37%; }
+
+.target4-h6 {
+  bottom: 33.5%;
+  right: 14.5%; }
+
+.target-radius {
+  border: 1px solid rgba(170, 23, 47, 0.8);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute; }
+
+.target1-radius {
+  top: 35.3%;
+  right: 41%;
+  width: 30px;
+  height: 30px; }
+
+.target {
+  position: absolute;
+  background: rgba(247, 139, 31, 0.8);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; }
+
+.target1 {
+  -webkit-animation: pulse1 800ms linear infinite;
+          animation: pulse1 800ms linear infinite; }
+
+.target2-radius {
+  width: 20px;
+  height: 20px;
+  bottom: 41%;
+  left: 27.05%; }
+
+.target2 {
+  -webkit-animation: pulse2 800ms linear infinite;
+          animation: pulse2 800ms linear infinite; }
+
+.target3-radius {
+  width: 10px;
+  height: 10px;
+  bottom: 28.5%;
+  left: 47.2%; }
+
+.target3 {
+  -webkit-animation: pulse3 800ms linear infinite;
+          animation: pulse3 800ms linear infinite; }
+
+.target4-radius {
+  bottom: 31%;
+  left: 80.5%; }
+
+@-webkit-keyframes pulse1 {
+  0% {
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 19px;
+    height: 19px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 23px;
+    height: 23px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 27px;
+    height: 27px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+@keyframes pulse1 {
+  0% {
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 19px;
+    height: 19px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 23px;
+    height: 23px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 27px;
+    height: 27px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+@-webkit-keyframes pulse2 {
+  0% {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 12.5px;
+    height: 12.5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 17.5px;
+    height: 17.5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+@keyframes pulse2 {
+  0% {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 12.5px;
+    height: 12.5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 17.5px;
+    height: 17.5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+@-webkit-keyframes pulse3 {
+  0% {
+    opacity: 1;
+    width: 5px;
+    height: 5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 7px;
+    height: 7px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 9px;
+    height: 9px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+@keyframes pulse3 {
+  0% {
+    opacity: 1;
+    width: 5px;
+    height: 5px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  25% {
+    opacity: 0.8;
+    width: 7px;
+    height: 7px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  50% {
+    opacity: 0.6;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  75% {
+    opacity: 0.4;
+    width: 9px;
+    height: 9px;
+    border: 1px solid rgba(170, 23, 47, 0.8); }
+  100% {
+    opacity: 0.2;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(170, 23, 47, 0.8); } }
+
+.nav-slide {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  right: 25px; }
+
+.nav-slide2 {
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.nav-slide1 {
+  top: 347px; }
+
+.nav-slide3 {
+  bottom: 346px; }
+
+.down-p {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 60px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 15px; }
+
+.down-img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 20px;
+  margin: auto;
+  z-index: 2; }
+
+.gradient {
+  width: 1024px;
+  height: 200px;
+  background: #F78B1F;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 97.5%;
+  -webkit-box-shadow: 0px 0px 15px 8px #F78B1F;
+          box-shadow: 0px 0px 15px 8px #F78B1F; }
+
+.slide-2 {
+  background: url("../img/bg-slide2.png") center center no-repeat;
+  display: none; }
+
+.slide-2-h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 31%;
+  right: 0;
+  left: 0;
+  margin: auto; }
+
+.img1-slide2 {
+  position: absolute;
+  bottom: 14%;
+  right: 23%; }
+
+.img2-slide2 {
+  position: absolute;
+  top: 20%;
+  left: 8%; }
+
+.img3-slide2 {
+  position: absolute;
+  top: 57%;
+  left: 22%; }
+
+.img4-slide2 {
+  position: absolute;
+  right: 0;
+  top: 5%; }
+
+.slide-3 {
+  background: url("../img/bg-slide3.png") center center no-repeat;
+  color: #fff;
+  font-size: 20px;
+  display: none; }
+
+.img1-slide3 {
+  position: absolute;
+  top: 27%;
+  right: 0; }
+
+.img2-slide3 {
+  position: absolute;
+  top: 14%; }
+
+.img3-slide3 {
+  position: absolute;
+  bottom: 0;
+  left: 16%; }
+
+.slide-3-h2 {
+  font-size: 30px;
+  margin: 110px 0 0 100px; }
+
+.beta {
+  text-align: center; }
+
+.num {
+  font-size: 36px; }
+
+.beta-p {
+  font-size: 25px; }
+
+.beta-num {
+  display: inline-block; }
+
+.beta-p {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: text-bottom; }
+
+.symbol-bg {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: #434790;
+  position: absolute;
+  text-align: center; }
+
+.beta-bg {
+  width: 80px;
+  height: 80px;
+  right: 0;
+  left: 0;
+  top: 25%;
+  margin: auto; }
+
+.beta-symbol {
+  font-size: 66px; }
+
+.intestines {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-align: right; }
+
+.links-bg {
+  width: 60px;
+  height: 60px; }
+
+.links-img {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute; }
+
+.intestines-bg {
+  top: 15%;
+  right: -65%; }
+
+.inflammation {
+  position: absolute;
+  top: 43%;
+  left: 7%;
+  text-align: right; }
+
+.inflammation-bg {
+  top: 15%;
+  right: -38%; }
+
+.amylin {
+  font-size: 15px;
+  position: absolute;
+  bottom: 42%;
+  left: 27%; }
+
+.stomach {
+  position: absolute;
+  bottom: 30%;
+  left: 18.5%;
+  text-align: right; }
+
+.stomach-bg {
+  top: 25%;
+  right: -95%; }
+
+.effect {
+  position: absolute;
+  bottom: 42.5%;
+  left: 35%;
+  text-align: right; }
+
+.defect {
+  position: absolute;
+  bottom: 45.5%;
+  left: 52%;
+  text-align: left; }
+
+.glucagon {
+  font-size: 15px;
+  position: absolute;
+  bottom: 40%;
+  right: 41%; }
+
+.hyperglycemia {
+  position: absolute;
+  bottom: 30.5%;
+  left: 42%;
+  font-size: 25px; }
+
+.kidneys {
+  position: absolute;
+  bottom: 18%;
+  left: 42%;
+  text-align: right; }
+
+.kidneys-bg {
+  top: 5%;
+  right: -130%; }
+
+.brain {
+  position: absolute;
+  top: 31%;
+  right: 11.5%;
+  text-align: left; }
+
+.brain-bg {
+  top: 10%;
+  left: -60%; }
+
+.dependencies {
+  width: 260px;
+  height: 300px;
+  position: absolute;
+  bottom: 16%;
+  right: 7%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2b306e), color-stop(#262b60), color-stop(#0d153e), to(#040e25));
+  background: -webkit-linear-gradient(#2b306e, #262b60, #0d153e, #040e25);
+  background: -o-linear-gradient(#2b306e, #262b60, #0d153e, #040e25);
+  background: linear-gradient(#2b306e, #262b60, #0d153e, #040e25);
+  -webkit-border-radius: 20%;
+          border-radius: 20%; }
+
+.dependencies-h6 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px; }
+
+.liver, .muscle, .cells {
+  position: absolute;
+  left: 5.5%; }
+
+.liver {
+  top: 18.5%;
+  left: 35%; }
+
+.liver-bg {
+  left: 5%;
+  top: 20%; }
+
+.muscle {
+  top: 43%;
+  left: 35%; }
+
+.muscle-bg {
+  left: 5%;
+  top: 45%; }
+
+.cells {
+  top: 68%;
+  left: 35%; }
+
+.cells-bg {
+  left: 5%;
+  top: 70%; }
+
+.arrow {
+  position: relative;
+  background: #fff; }
+
+.arrow:before, .arrow:after {
+  content: "";
+  position: absolute;
+  border: 2px solid transparent; }
+
+.beta-intestines {
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  top: 31%;
+  left: 34.5%;
+  -webkit-transform: rotate(-11deg);
+      -ms-transform: rotate(-11deg);
+          transform: rotate(-11deg); }
+
+.beta-intestines:after {
+  top: -4px;
+  left: -10px;
+  border-right-color: #fff;
+  border-width: 5px 10px 5px 0; }
+
+.intestines-beta {
+  top: 33%;
+  left: 34%; }
+
+.intestines-beta:after {
+  top: -4px;
+  left: 98px;
+  border-left-color: #fff;
+  border-width: 5px 0 5px 10px; }
+
+.beta-brain {
+  top: 31%;
+  left: 56%;
+  -webkit-transform: rotate(11deg);
+      -ms-transform: rotate(11deg);
+          transform: rotate(11deg); }
+
+.beta-brain:after {
+  top: -4px;
+  left: 100px;
+  border-left-color: #fff;
+  border-width: 5px 0 5px 10px; }
+
+.brain-beta {
+  top: 33%;
+  left: 56.5%;
+  -webkit-transform: rotate(11deg);
+      -ms-transform: rotate(11deg);
+          transform: rotate(11deg); }
+
+.beta-inflammation {
+  width: 140px;
+  top: 39%;
+  left: 32.5%;
+  -webkit-transform: rotate(-32deg);
+      -ms-transform: rotate(-32deg);
+          transform: rotate(-32deg); }
+
+.inflammation-beta {
+  top: 41.5%; }
+
+.inflammation-beta:after {
+  left: 140px;
+  border-left-color: #fff;
+  border-width: 5px 0 5px 10px; }
+
+.beta-dependencies {
+  left: 54%;
+  -webkit-transform: rotate(32deg);
+      -ms-transform: rotate(32deg);
+          transform: rotate(32deg); }
+
+.beta-dependencies:after {
+  left: 140px;
+  border-left-color: #fff;
+  border-width: 5px 0 5px 10px; }
+
+.dependencies-beta {
+  top: 41.5%;
+  left: 54%;
+  -webkit-transform: rotate(32deg);
+      -ms-transform: rotate(32deg);
+          transform: rotate(32deg); }
+
+.beta-amilyn {
+  width: 205px;
+  height: 2px;
+  position: absolute;
+  top: 46%;
+  left: 29%;
+  -webkit-transform: rotate(-40deg);
+      -ms-transform: rotate(-40deg);
+          transform: rotate(-40deg); }
+
+.beta-amilyn:after {
+  top: -4px;
+  left: -10px;
+  border-right-color: #fff;
+  border-width: 5px 10px 5px 0; }
+
+.amylin-stomach {
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  bottom: 38.5%;
+  left: 30%; }
+
+.amylin-stomach:after {
+  top: 20px;
+  left: -4px;
+  border-top-color: #fff;
+  border-width: 10px 5px 0 5px; }
+
+.amylin-hyperglycemia {
+  width: 2px;
+  height: 95px;
+  position: absolute;
+  bottom: 32%;
+  left: 36.5%;
+  -webkit-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+          transform: rotate(-60deg); }
+
+.amylin-hyperglycemia:after {
+  top: 95px;
+  left: -4px;
+  border-top-color: #fff;
+  border-width: 10px 5px 0 5px; }
+
+.brain-dependencies {
+  top: 40%;
+  left: 76.5%; }
+
+.dependencies-brain {
+  top: 41.2%;
+  left: 78%; }
+
+.dependencies-brain:after {
+  top: -10px;
+  border-bottom-color: #fff;
+  border-width: 0 5px 10px 5px; }
+
+.hyperglycemia-kidneys {
+  top: 69.5%;
+  left: 52%; }
+
+.kidneys-hyperglycemia {
+  top: 70.8%;
+  left: 49.8%; }
+
+.kidneys-hyperglycemia:after {
+  top: -10px;
+  border-bottom-color: #fff;
+  border-width: 0 5px 10px 5px; }
+
+.beta-hyperglycemia {
+  width: 2px;
+  height: 205px;
+  position: absolute;
+  top: 37.5%;
+  left: 50.3%; }
+
+.beta-hyperglycemia:after {
+  top: 205px;
+  left: -4px;
+  border-top-color: #fff;
+  border-width: 10px 5px 0 5px; }
+
+.beta-effect {
+  height: 50px;
+  left: 48%; }
+
+.beta-effect:after {
+  top: 50px; }
+
+.beta-defect {
+  height: 50px;
+  left: 52.5%; }
+
+.beta-defect:after {
+  top: 50px; }
+
+.effect-hyperglycemia {
+  height: 45px;
+  top: 58.4%;
+  left: 48%; }
+
+.effect-hyperglycemia:after {
+  top: 45px; }
+
+.defect-glucagon {
+  height: 10px;
+  top: 55%;
+  left: 52.5%; }
+
+.defect-glucagon:after {
+  top: 10px; }
+
+.glucagon-hyperglycemia {
+  height: 23px;
+  top: 61.1%;
+  left: 52.5%; }
+
+.glucagon-hyperglycemia:after {
+  top: 23px; }
+
+.stomach-hyperglycemia {
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  bottom: 32%;
+  left: 34%; }
+
+.stomach-hyperglycemia:after {
+  top: -4px;
+  left: 60px;
+  border-left-color: #fff;
+  border-width: 5px 0 5px 10px; }
